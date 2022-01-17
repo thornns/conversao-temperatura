@@ -4,4 +4,4 @@ ENTRYPOINT /app
 COPY . .
 RUN npm install
 EXPOSE 8080
-RUN [ "node", "server.js" ]
+CMD [ "node", "server.js" ]
